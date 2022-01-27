@@ -1,0 +1,21 @@
+!path = 'D:\Net\ExcelPMLControl\bin\Release\PML.Excel.Control'
+
+import |$!path|
+handle any
+endhandle
+
+using namespace 'PML.Excel.Control'
+!aa = object PMLExcelControl()
+-- q var !aa
+-- q var !aa.methods()
+
+!array = object array()
+!subArray = object array()
+!subArray[1] = 1
+!subArray[2] = 2
+!subArray[3] = 3
+!subArray[4] = 4
+!subArray[5] = 5
+!array[1] = !subArray
+!array[2] = !subArray
+!aa.readhashtable(!array)
