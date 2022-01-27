@@ -1,8 +1,0 @@
-D:\Net\ExcelPMLControl\bin\x86\Debug\PML.Excel.Control.dll
-D:\Net\ExcelPMLControl\bin\x86\Debug\PML.Excel.Control.pdb
-D:\Net\ExcelPMLControl\bin\x86\Debug\PMLNet.dll
-D:\Net\ExcelPMLControl\bin\x86\Debug\ForeignLanguage.dll
-D:\Net\ExcelPMLControl\obj\x86\Debug\PML.Excel.Control.csproj.CoreCompileInputs.cache
-D:\Net\ExcelPMLControl\obj\x86\Debug\PML.Excel.Control.csproj.CopyComplete
-D:\Net\ExcelPMLControl\obj\x86\Debug\PML.Excel.Control.dll
-D:\Net\ExcelPMLControl\obj\x86\Debug\PML.Excel.Control.pdb
