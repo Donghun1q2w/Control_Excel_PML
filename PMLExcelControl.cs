@@ -68,6 +68,21 @@ namespace PML.Excel.Control
 
 
         }
+
+        [PMLNetCallable()]
+        public void readhashtable(Hashtable input)
+        {
+
+            MessageBox.Show(input.Count.ToString());
+            foreach (DictionaryEntry inputitem in input)
+            {
+                Hashtable subitems = (Hashtable)inputitem.Value;
+                foreach (DictionaryEntry subitem in subitems)
+                    Console.WriteLine(subitem.Value.ToString());
+
+            }
+            //string a = input[1].GetType().Name;
+        }
         [PMLNetCallable()]
         public void SaveExcel(Hashtable input , string path , double Start_Row, double Start_Column)
         {
